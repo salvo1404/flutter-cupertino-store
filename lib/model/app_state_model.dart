@@ -22,7 +22,7 @@ double _shippingCostPerItem = 7;
 
 class AppStateModel extends foundation.ChangeNotifier {
   // All the available products.
-  List<Product> _availableProducts;
+  List<Product> _availableProducts = ProductsRepository.loadProducts(Category.all);
 
   // The currently selected category of products.
   Category _selectedCategory = Category.all;

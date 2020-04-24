@@ -6,7 +6,7 @@ import 'app.dart';
 import 'model/app_state_model.dart';             // NEW
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+ WidgetsFlutterBinding.ensureInitialized();
 
  SystemChrome.setPreferredOrientations(
      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
