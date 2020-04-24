@@ -1,6 +1,9 @@
 # Cupertino Store
 
 A Flutter project.
+Flatter version 1.18.0-7.0.pre.5
+Xcode 11.4.1
+iOS 13.4.1
 
 ## Getting Started
 
