@@ -1,6 +1,6 @@
-# my_app
+# Cupertino Store
 
-A new Flutter project.
+A Flutter project.
 
 ## Getting Started
 
