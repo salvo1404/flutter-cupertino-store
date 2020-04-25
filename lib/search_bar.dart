@@ -21,7 +21,7 @@ class SearchBar extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(
           horizontal: 4,
-          vertical: 8,
+          vertical: 4,
         ),
         child: Row(
           children: [
@@ -31,15 +31,18 @@ class SearchBar extends StatelessWidget {
             ),
             Expanded(
               child: CupertinoTextField(
-                placeholder: ' Search',
+                placeholder: 'Search',
                 controller: controller,
                 focusNode: focusNode,
                 style: Styles.searchText,
                 cursorColor: Styles.searchCursorColor,
+                decoration: BoxDecoration(
+                  color: Styles.searchBackground,
+                ),
               ),
             ),
             GestureDetector(
-              // onTap: controller.clear,
+              onTap: controller.clear,
               child: const Icon(
                 CupertinoIcons.clear_thick_circled,
                 color: Styles.searchIconColor,

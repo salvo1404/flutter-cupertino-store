@@ -39,7 +39,7 @@ class _SearchTabState extends State<SearchTab> {
 
   Widget _buildSearchBox() {
     return Padding(
-      padding: const EdgeInsets.all(8),
+      padding: const EdgeInsets.all(16),
       child: SearchBar(
         controller: _controller,
         focusNode: _focusNode,
