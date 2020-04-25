@@ -14,7 +14,7 @@ class ProductListTab extends StatefulWidget {
 class _ProductListTabState extends State<ProductListTab> {
   @override
   void initState() {
-    debugPrint('On load...');
+    // debugPrint('On load...');
     super.initState();
   }
 
