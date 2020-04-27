@@ -28,7 +28,7 @@ class _ProductListTabState extends State<ProductListTab> {
           semanticChildCount: products.length,
           slivers: <Widget>[
             CupertinoSliverNavigationBar(
-              largeTitle: Text('Listings'),
+              largeTitle: Text('Products'),
             ),
             SliverSafeArea(
                top: false,
